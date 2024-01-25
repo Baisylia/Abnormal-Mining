@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "abnormalmining:block/kousa_tiles",
+    "side": "abnormalmining:block/kousa_tiles",
+    "top": "abnormalmining:block/kousa_tiles"
+  }
+}

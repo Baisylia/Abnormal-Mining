@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "abnormalmining:willow_tiles"
+    }
+  },
+  "result": {
+    "item": "abnormalmining:willow_tile_stairs",
+    "count": 6
+  }
+}

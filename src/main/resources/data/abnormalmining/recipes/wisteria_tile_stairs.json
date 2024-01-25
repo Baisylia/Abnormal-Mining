@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "abnormalmining:wisteria_tiles"
+    }
+  },
+  "result": {
+    "item": "abnormalmining:wisteria_tile_stairs",
+    "count": 6
+  }
+}

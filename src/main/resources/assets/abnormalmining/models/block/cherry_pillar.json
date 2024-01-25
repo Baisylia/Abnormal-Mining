@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "abnormalmining:block/cherry_pillar_top",
+    "side": "abnormalmining:block/cherry_pillar_side"
+  }
+}

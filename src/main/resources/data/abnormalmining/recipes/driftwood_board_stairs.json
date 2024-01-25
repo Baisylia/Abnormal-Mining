@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "abnormalmining:driftwood_boards"
+    }
+  },
+  "result": {
+    "item": "abnormalmining:driftwood_board_stairs",
+    "count": 6
+  }
+}

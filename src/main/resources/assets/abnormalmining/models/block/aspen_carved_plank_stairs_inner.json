@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "abnormalmining:block/carved_aspen_planks",
+    "side": "abnormalmining:block/carved_aspen_planks",
+    "top": "abnormalmining:block/carved_aspen_planks"
+  }
+}

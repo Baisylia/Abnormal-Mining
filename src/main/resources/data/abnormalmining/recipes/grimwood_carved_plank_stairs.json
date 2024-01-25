@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "abnormalmining:carved_grimwood_planks"
+    }
+  },
+  "result": {
+    "item": "abnormalmining:grimwood_carved_plank_stairs",
+    "count": 6
+  }
+}

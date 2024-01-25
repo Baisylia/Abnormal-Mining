@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "abnormalmining:carved_kousa_planks"
+    }
+  },
+  "result": {
+    "item": "abnormalmining:kousa_carved_plank_stairs",
+    "count": 6
+  }
+}

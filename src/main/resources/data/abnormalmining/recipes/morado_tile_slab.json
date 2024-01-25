@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "abnormalmining:morado_tiles"
+    }
+  },
+  "result": {
+    "item": "abnormalmining:morado_tile_slab",
+    "count": 6
+  }
+}

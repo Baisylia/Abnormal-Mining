@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#X",
+    "X#"
+  ],
+  "key": {
+    "#": {
+      "item": "modestmining:plank"
+    },
+    "X": {
+      "item": "autumnity:maple_planks"
+    }
+  },
+  "result": {
+    "item": "abnormalmining:maple_tiles",
+    "count": 2
+  }
+}

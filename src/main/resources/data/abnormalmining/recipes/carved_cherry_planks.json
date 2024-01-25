@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#X#",
+    "X X",
+    "#X#"
+  ],
+  "key": {
+    "#": {
+      "item": "modestmining:plank"
+    },
+    "X": {
+      "item": "environmental:cherry_planks"
+    }
+  },
+  "result": {
+    "item": "abnormalmining:carved_cherry_planks",
+    "count": 5
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#X",
+    "X#"
+  ],
+  "key": {
+    "#": {
+      "item": "modestmining:plank"
+    },
+    "X": {
+      "item": "environmental:wisteria_planks"
+    }
+  },
+  "result": {
+    "item": "abnormalmining:wisteria_tiles",
+    "count": 2
+  }
+}

@@ -1,0 +1,13 @@
+ {
+  "variants": {
+    "type=bottom": {
+      "model": "abnormalmining:block/willow_carved_plank_slab"
+    },
+    "type=double": {
+      "model": "abnormalmining:block/willow_carved_plank_slab_full"
+    },
+    "type=top": {
+      "model": "abnormalmining:block/willow_carved_plank_slab_top"
+    }
+  }
+}

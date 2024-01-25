@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#X#",
+    "#X#"
+  ],
+  "key": {
+    "#": {
+      "item": "modestmining:plank"
+    },
+    "X": {
+      "item": "atmospheric:morado_planks"
+    }
+  },
+  "result": {
+    "item": "abnormalmining:morado_pillar",
+    "count": 3
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "abnormalmining:block/yucca_pillar_top",
+    "side": "abnormalmining:block/yucca_pillar_side"
+  }
+}

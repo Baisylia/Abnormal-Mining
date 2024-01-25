@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "abnormalmining:grimwood_boards"
+    }
+  },
+  "result": {
+    "item": "abnormalmining:grimwood_board_wall",
+    "count": 6
+  }
+}

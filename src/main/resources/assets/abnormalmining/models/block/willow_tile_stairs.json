@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "abnormalmining:block/willow_tiles",
+    "side": "abnormalmining:block/willow_tiles",
+    "top": "abnormalmining:block/willow_tiles"
+  }
+}

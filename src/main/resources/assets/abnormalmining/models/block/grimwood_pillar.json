@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "abnormalmining:block/grimwood_pillar_top",
+    "side": "abnormalmining:block/grimwood_pillar_side"
+  }
+}

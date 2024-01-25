@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "abnormalmining:carved_river_planks"
+    }
+  },
+  "result": {
+    "item": "abnormalmining:river_carved_plank_slab",
+    "count": 6
+  }
+}

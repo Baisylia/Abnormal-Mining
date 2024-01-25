@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "abnormalmining:carved_willow_planks"
+    }
+  },
+  "result": {
+    "item": "abnormalmining:chiseled_willow_planks",
+    "count": 1
+  }
+}

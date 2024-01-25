@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "abnormalmining:maple_tiles"
+    }
+  },
+  "result": {
+    "item": "abnormalmining:maple_tile_stairs",
+    "count": 6
+  }
+}

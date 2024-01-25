@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "abnormalmining:block/kousa_pillar_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "abnormalmining:block/kousa_pillar"
+    },
+    "axis=z": {
+      "model": "abnormalmining:block/kousa_pillar_horizontal",
+      "x": 90
+    }
+  }
+}

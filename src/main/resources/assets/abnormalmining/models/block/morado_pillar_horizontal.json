@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "abnormalmining:block/morado_pillar_top",
+    "side": "abnormalmining:block/morado_pillar_side"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "abnormalmining:yucca_boards"
+    }
+  },
+  "result": {
+    "item": "abnormalmining:yucca_board_stairs",
+    "count": 6
+  }
+}

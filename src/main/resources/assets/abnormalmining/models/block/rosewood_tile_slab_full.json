@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "abnormalmining:block/rosewood_tiles",
+    "side": "abnormalmining:block/rosewood_tiles",
+    "top": "abnormalmining:block/rosewood_tiles"
+  }
+}

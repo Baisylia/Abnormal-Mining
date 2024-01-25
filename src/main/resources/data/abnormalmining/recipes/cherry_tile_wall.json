@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "abnormalmining:cherry_tiles"
+    }
+  },
+  "result": {
+    "item": "abnormalmining:cherry_tile_wall",
+    "count": 6
+  }
+}

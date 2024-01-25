@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "abnormalmining:block/river_tiles",
+    "side": "abnormalmining:block/river_tiles",
+    "top": "abnormalmining:block/river_tiles"
+  }
+}

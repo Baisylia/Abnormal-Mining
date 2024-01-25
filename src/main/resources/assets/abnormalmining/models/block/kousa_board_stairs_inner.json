@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "abnormalmining:block/kousa_boards",
+    "side": "abnormalmining:block/kousa_boards",
+    "top": "abnormalmining:block/kousa_boards"
+  }
+}

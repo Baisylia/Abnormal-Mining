@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "abnormalmining:block/driftwood_boards",
+    "side": "abnormalmining:block/driftwood_boards",
+    "top": "abnormalmining:block/driftwood_boards"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "abnormalmining:block/carved_grimwood_planks",
+    "side": "abnormalmining:block/carved_grimwood_planks",
+    "top": "abnormalmining:block/carved_grimwood_planks"
+  }
+}

@@ -1,0 +1,13 @@
+ {
+  "variants": {
+    "type=bottom": {
+      "model": "abnormalmining:block/aspen_tile_slab"
+    },
+    "type=double": {
+      "model": "abnormalmining:block/aspen_tile_slab_full"
+    },
+    "type=top": {
+      "model": "abnormalmining:block/aspen_tile_slab_top"
+    }
+  }
+}

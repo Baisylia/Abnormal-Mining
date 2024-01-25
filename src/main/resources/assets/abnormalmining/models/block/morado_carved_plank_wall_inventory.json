@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "abnormalmining:block/carved_morado_planks"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "abnormalmining:block/maple_boards",
+    "side": "abnormalmining:block/maple_boards",
+    "top": "abnormalmining:block/maple_boards"
+  }
+}

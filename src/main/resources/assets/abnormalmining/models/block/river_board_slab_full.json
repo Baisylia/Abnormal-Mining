@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "abnormalmining:block/river_boards",
+    "side": "abnormalmining:block/river_boards",
+    "top": "abnormalmining:block/river_boards"
+  }
+}

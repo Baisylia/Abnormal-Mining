@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "abnormalmining:block/driftwood_pillar_top",
+    "side": "abnormalmining:block/driftwood_pillar_side"
+  }
+}

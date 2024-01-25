@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "abnormalmining:block/carved_cherry_planks",
+    "side": "abnormalmining:block/carved_cherry_planks",
+    "top": "abnormalmining:block/carved_cherry_planks"
+  }
+}

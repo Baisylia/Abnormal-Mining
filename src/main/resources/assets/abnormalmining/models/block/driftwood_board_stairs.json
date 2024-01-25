@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "abnormalmining:block/driftwood_boards",
+    "side": "abnormalmining:block/driftwood_boards",
+    "top": "abnormalmining:block/driftwood_boards"
+  }
+}

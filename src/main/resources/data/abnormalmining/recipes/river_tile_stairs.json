@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "abnormalmining:river_tiles"
+    }
+  },
+  "result": {
+    "item": "abnormalmining:river_tile_stairs",
+    "count": 6
+  }
+}

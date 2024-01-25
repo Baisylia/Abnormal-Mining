@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "XX",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "modestmining:plank"
+    },
+    "X": {
+      "item": "atmospheric:grimwood_planks"
+    }
+  },
+  "result": {
+    "item": "abnormalmining:grimwood_boards",
+    "count": 3
+  }
+}
