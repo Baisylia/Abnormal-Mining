@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#X#",
+    "X X",
+    "#X#"
+  ],
+  "key": {
+    "#": {
+      "item": "modestmining:plank"
+    },
+    "X": {
+      "item": "atmospheric:laurel_planks"
+    }
+  },
+  "result": {
+    "item": "abnormalmining:carved_laurel_planks",
+    "count": 5
+  }
+}

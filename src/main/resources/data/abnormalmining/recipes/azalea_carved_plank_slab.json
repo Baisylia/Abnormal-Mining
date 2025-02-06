@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "abnormalmining:carved_azalea_planks"
+    }
+  },
+  "result": {
+    "item": "abnormalmining:azalea_carved_plank_slab",
+    "count": 6
+  }
+}

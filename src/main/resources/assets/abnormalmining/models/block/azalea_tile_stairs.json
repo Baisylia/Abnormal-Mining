@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "abnormalmining:block/azalea_tiles",
+    "side": "abnormalmining:block/azalea_tiles",
+    "top": "abnormalmining:block/azalea_tiles"
+  }
+}

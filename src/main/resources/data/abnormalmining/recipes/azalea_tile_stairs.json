@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "abnormalmining:azalea_tiles"
+    }
+  },
+  "result": {
+    "item": "abnormalmining:azalea_tile_stairs",
+    "count": 6
+  }
+}

@@ -1332,6 +1332,227 @@ public class ModBlocks {
             }, CreativeModeTab.TAB_BUILDING_BLOCKS, true, 300);
 
 
+    public static final RegistryObject<Block> AZALEA_PILLAR = registerBlock("azalea_pillar",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)) {
+                @Override public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return true; }
+                @Override public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 60; }
+                @Override public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 30; }
+            }, CreativeModeTab.TAB_BUILDING_BLOCKS, true, 300);
+
+    public static final RegistryObject<Block> AZALEA_BOARDS = registerBlock("azalea_boards",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {
+                @Override public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return true; }
+                @Override public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 60; }
+                @Override public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 30; }
+            }, CreativeModeTab.TAB_BUILDING_BLOCKS, true, 300);
+
+    public static final RegistryObject<Block> AZALEA_BOARD_SLAB = registerBlock("azalea_board_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB).noOcclusion())
+            {
+                @Override public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return true; }
+                @Override public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 60; }
+                @Override public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 30; }
+            }, CreativeModeTab.TAB_BUILDING_BLOCKS, true, 300);
+
+    public static final RegistryObject<Block> AZALEA_BOARD_STAIRS = registerBlock("azalea_board_stairs",
+            () -> new StairBlock(() -> Blocks.OAK_STAIRS.defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS).noOcclusion())
+            {
+                @Override public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return true; }
+                @Override public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 60; }
+                @Override public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 30; }
+            }, CreativeModeTab.TAB_BUILDING_BLOCKS, true, 300);
+
+    public static final RegistryObject<Block> AZALEA_BOARD_WALL = registerBlock("azalea_board_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {
+                @Override public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return true; }
+                @Override public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 60; }
+                @Override public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 30; }
+            }, CreativeModeTab.TAB_BUILDING_BLOCKS, true, 300);
+
+    public static final RegistryObject<Block> AZALEA_TILES = registerBlock("azalea_tiles",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {
+                @Override public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return true; }
+                @Override public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 60; }
+                @Override public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 30; }
+            }, CreativeModeTab.TAB_BUILDING_BLOCKS, true, 300);
+
+    public static final RegistryObject<Block> AZALEA_TILE_SLAB = registerBlock("azalea_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB).noOcclusion())
+            {
+                @Override public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return true; }
+                @Override public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 60; }
+                @Override public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 30; }
+            }, CreativeModeTab.TAB_BUILDING_BLOCKS, true, 300);
+
+    public static final RegistryObject<Block> AZALEA_TILE_STAIRS = registerBlock("azalea_tile_stairs",
+            () -> new StairBlock(() -> Blocks.OAK_STAIRS.defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS).noOcclusion())
+            {
+                @Override public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return true; }
+                @Override public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 60; }
+                @Override public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 30; }
+            }, CreativeModeTab.TAB_BUILDING_BLOCKS, true, 300);
+
+    public static final RegistryObject<Block> AZALEA_TILE_WALL = registerBlock("azalea_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {
+                @Override public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return true; }
+                @Override public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 60; }
+                @Override public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 30; }
+            }, CreativeModeTab.TAB_BUILDING_BLOCKS, true, 300);
+
+    public static final RegistryObject<Block> CARVED_AZALEA_PLANKS = registerBlock("carved_azalea_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {
+                @Override public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return true; }
+                @Override public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 60; }
+                @Override public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 30; }
+            }, CreativeModeTab.TAB_BUILDING_BLOCKS, true, 300);
+
+    public static final RegistryObject<Block> AZALEA_CARVED_PLANK_SLAB = registerBlock("azalea_carved_plank_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB).noOcclusion())
+            {
+                @Override public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return true; }
+                @Override public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 60; }
+                @Override public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 30; }
+            }, CreativeModeTab.TAB_BUILDING_BLOCKS, true, 300);
+
+    public static final RegistryObject<Block> AZALEA_CARVED_PLANK_STAIRS = registerBlock("azalea_carved_plank_stairs",
+            () -> new StairBlock(() -> Blocks.OAK_STAIRS.defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS).noOcclusion())
+            {
+                @Override public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return true; }
+                @Override public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 60; }
+                @Override public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 30; }
+            }, CreativeModeTab.TAB_BUILDING_BLOCKS, true, 300);
+
+    public static final RegistryObject<Block> AZALEA_CARVED_PLANK_WALL = registerBlock("azalea_carved_plank_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {
+                @Override public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return true; }
+                @Override public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 60; }
+                @Override public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 30; }
+            }, CreativeModeTab.TAB_BUILDING_BLOCKS, true, 300);
+
+    public static final RegistryObject<Block> CHISELED_AZALEA_PLANKS = registerBlock("chiseled_azalea_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {
+                @Override public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return true; }
+                @Override public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 60; }
+                @Override public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 30; }
+            }, CreativeModeTab.TAB_BUILDING_BLOCKS, true, 300);
+
+
+
+
+
+
+
+    public static final RegistryObject<Block> LAUREL_PILLAR = registerBlock("laurel_pillar",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)) {
+                @Override public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return true; }
+                @Override public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 60; }
+                @Override public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 30; }
+            }, CreativeModeTab.TAB_BUILDING_BLOCKS, true, 300);
+
+    public static final RegistryObject<Block> LAUREL_BOARDS = registerBlock("laurel_boards",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {
+                @Override public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return true; }
+                @Override public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 60; }
+                @Override public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 30; }
+            }, CreativeModeTab.TAB_BUILDING_BLOCKS, true, 300);
+
+    public static final RegistryObject<Block> LAUREL_BOARD_SLAB = registerBlock("laurel_board_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB).noOcclusion())
+            {
+                @Override public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return true; }
+                @Override public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 60; }
+                @Override public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 30; }
+            }, CreativeModeTab.TAB_BUILDING_BLOCKS, true, 300);
+
+    public static final RegistryObject<Block> LAUREL_BOARD_STAIRS = registerBlock("laurel_board_stairs",
+            () -> new StairBlock(() -> Blocks.OAK_STAIRS.defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS).noOcclusion())
+            {
+                @Override public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return true; }
+                @Override public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 60; }
+                @Override public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 30; }
+            }, CreativeModeTab.TAB_BUILDING_BLOCKS, true, 300);
+
+    public static final RegistryObject<Block> LAUREL_BOARD_WALL = registerBlock("laurel_board_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {
+                @Override public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return true; }
+                @Override public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 60; }
+                @Override public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 30; }
+            }, CreativeModeTab.TAB_BUILDING_BLOCKS, true, 300);
+
+    public static final RegistryObject<Block> LAUREL_TILES = registerBlock("laurel_tiles",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {
+                @Override public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return true; }
+                @Override public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 60; }
+                @Override public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 30; }
+            }, CreativeModeTab.TAB_BUILDING_BLOCKS, true, 300);
+
+    public static final RegistryObject<Block> LAUREL_TILE_SLAB = registerBlock("laurel_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB).noOcclusion())
+            {
+                @Override public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return true; }
+                @Override public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 60; }
+                @Override public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 30; }
+            }, CreativeModeTab.TAB_BUILDING_BLOCKS, true, 300);
+
+    public static final RegistryObject<Block> LAUREL_TILE_STAIRS = registerBlock("laurel_tile_stairs",
+            () -> new StairBlock(() -> Blocks.OAK_STAIRS.defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS).noOcclusion())
+            {
+                @Override public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return true; }
+                @Override public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 60; }
+                @Override public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 30; }
+            }, CreativeModeTab.TAB_BUILDING_BLOCKS, true, 300);
+
+    public static final RegistryObject<Block> LAUREL_TILE_WALL = registerBlock("laurel_tile_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {
+                @Override public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return true; }
+                @Override public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 60; }
+                @Override public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 30; }
+            }, CreativeModeTab.TAB_BUILDING_BLOCKS, true, 300);
+
+    public static final RegistryObject<Block> CARVED_LAUREL_PLANKS = registerBlock("carved_laurel_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {
+                @Override public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return true; }
+                @Override public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 60; }
+                @Override public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 30; }
+            }, CreativeModeTab.TAB_BUILDING_BLOCKS, true, 300);
+
+    public static final RegistryObject<Block> LAUREL_CARVED_PLANK_SLAB = registerBlock("laurel_carved_plank_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB).noOcclusion())
+            {
+                @Override public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return true; }
+                @Override public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 60; }
+                @Override public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 30; }
+            }, CreativeModeTab.TAB_BUILDING_BLOCKS, true, 300);
+
+    public static final RegistryObject<Block> LAUREL_CARVED_PLANK_STAIRS = registerBlock("laurel_carved_plank_stairs",
+            () -> new StairBlock(() -> Blocks.OAK_STAIRS.defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS).noOcclusion())
+            {
+                @Override public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return true; }
+                @Override public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 60; }
+                @Override public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 30; }
+            }, CreativeModeTab.TAB_BUILDING_BLOCKS, true, 300);
+
+    public static final RegistryObject<Block> LAUREL_CARVED_PLANK_WALL = registerBlock("laurel_carved_plank_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {
+                @Override public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return true; }
+                @Override public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 60; }
+                @Override public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 30; }
+            }, CreativeModeTab.TAB_BUILDING_BLOCKS, true, 300);
+
+    public static final RegistryObject<Block> CHISELED_LAUREL_PLANKS = registerBlock("chiseled_laurel_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)) {
+                @Override public boolean isFlammable(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return true; }
+                @Override public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 60; }
+                @Override public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) { return 30; }
+            }, CreativeModeTab.TAB_BUILDING_BLOCKS, true, 300);
+
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab, Boolean isFuel, Integer fuelAmount) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

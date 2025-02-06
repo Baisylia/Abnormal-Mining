@@ -13,6 +13,8 @@
     "abnormalmining:driftwood_board_wall",
     "abnormalmining:aspen_board_wall",
     "abnormalmining:kousa_board_wall",
+    "abnormalmining:azalea_board_wall",
+    "abnormalmining:laurel_board_wall",
     "abnormalmining:willow_tile_wall",
     "abnormalmining:cherry_tile_wall",
     "abnormalmining:wisteria_tile_wall",
@@ -25,6 +27,8 @@
     "abnormalmining:driftwood_tile_wall",
     "abnormalmining:aspen_tile_wall",
     "abnormalmining:kousa_tile_wall",
+    "abnormalmining:azalea_tile_wall",
+    "abnormalmining:laurel_tile_wall",
     "abnormalmining:willow_carved_plank_wall",
     "abnormalmining:cherry_carved_plank_wall",
     "abnormalmining:wisteria_carved_plank_wall",
@@ -36,6 +40,8 @@
     "abnormalmining:maple_carved_plank_wall",
     "abnormalmining:driftwood_carved_plank_wall",
     "abnormalmining:aspen_carved_plank_wall",
-    "abnormalmining:kousa_carved_plank_wall"
+    "abnormalmining:kousa_carved_plank_wall",
+    "abnormalmining:azalea_carved_plank_wall",
+    "abnormalmining:laurel_carved_plank_wall"
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "abnormalmining:carved_laurel_planks"
+    }
+  },
+  "result": {
+    "item": "abnormalmining:chiseled_laurel_planks",
+    "count": 1
+  }
+}

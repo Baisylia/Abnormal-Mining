@@ -19,7 +19,7 @@ modId="abnormalmining" #mandatory
 # The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
 # ${file.jarVersion} will substitute the value of the Implementation-Version as read from the mod's JAR file metadata
 # see the associated build.gradle script for how to populate this completely automatically during a build
-version="0.1" #mandatory
+version="0.1.1" #mandatory
  # A display name for the mod
 displayName="Abnormal Mining" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://mcforge.readthedocs.io/en/latest/gettingstarted/autoupdate/
@@ -97,7 +97,7 @@ A compatability mod between Modest Mining and the Abnormals mods
 [[dependencies.abnormalmining]]
     modId = "atmospheric"
     mandatory = true
-    versionRange="[5.0.0,)"
+    versionRange="[5.1.0,)"
     ordering = "AFTER"
     side = "BOTH"
 [[dependencies.abnormalmining]]
@@ -106,3 +106,9 @@ A compatability mod between Modest Mining and the Abnormals mods
     versionRange="[5.1.0,)"
     ordering = "AFTER"
     side = "BOTH"
+[[dependencies.abnormalmining]]
+modId = "caverns_and_chasms"
+mandatory = true
+versionRange="[1.0.0,)"
+ordering = "AFTER"
+side = "BOTH"
